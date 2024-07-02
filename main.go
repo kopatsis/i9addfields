@@ -126,8 +126,8 @@ func WoUpd(collection *mongo.Collection) {
 		item.IsPinned = false
 		item.AvgRating = float32(-1)
 		item.AvgFaves = float32(-1)
-		item.LastRating = 0
-		item.LastFaves = 0
+		item.LastRating = -1
+		item.LastFaves = -1
 		item.RatedCount = 0
 		item.StartedCount = 0
 
